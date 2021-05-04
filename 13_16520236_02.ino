@@ -68,7 +68,7 @@ void loop() {
     cm = readSensor();
     // print to LCD
     lcd.setCursor(0, 1);
-    lcd.print("Jarak ")
+    lcd.print("Jarak ");
     lcd.setCursor(6, 1);
     lcd.print(cm);
     printCentimeter(cm);
